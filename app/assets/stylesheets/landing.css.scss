@@ -54,7 +54,7 @@ section#first {
   display: box;
   width: 960px;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 50px;
 
   .feature {
     box-flex: 1;
@@ -147,4 +147,13 @@ section#first {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.thumb img {
+  width:90px;
+  height:90px;
+}
+
+.thumb{
+  text-align:center;
 }
