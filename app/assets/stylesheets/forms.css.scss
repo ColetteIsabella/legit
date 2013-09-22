@@ -1,0 +1,83 @@
+form {
+
+  box-sizing: border-box;
+  width: 960px * (1.0 / 2);
+  margin: 0 auto;
+  padding-top: 50px;
+
+  .input, .action {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    label, input, textarea {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 18px;
+      color: #393939;
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 10px 0 transparentize(#563081, 0.75);
+        border-color: transparentize(#563081, 0.2);
+      }
+    }
+
+    input, textarea {
+      border: 1px solid darken(#e6e6e6, 10%);
+      border-radius: 4px;
+      padding: 8px;
+      resize: none;
+
+      &::-webkit-input-placeholder {
+        color: darken(#e6e6e6, 10%);
+      }
+    }
+
+    label {
+      margin-bottom: 5px;
+      padding-left: 5px;
+    }
+
+    input {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .city, .state {
+      display: inline-block;
+      width: 49%;
+      box-sizing: border-box;
+
+    }
+
+    .city {
+      margin-right: 1%;
+    }
+
+    .state {
+      margin-left: 1%;
+    }
+
+    .row {
+      font-size: 0;
+    }
+  }
+
+  .action {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+
+  .button {
+    min-width: 30%;
+    width: auto;
+    border-radius: 100px;
+    padding: 12px 24px;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+  }
+}

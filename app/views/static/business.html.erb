@@ -1,13 +1,25 @@
 <form>
-  <input type="text" placeholder="Name of business">
-  <input type="text" placeholder="Address of business">
 
+  <div class="input">
+    <label>What's your business's name?</label>
+    <input type="text" placeholder="">
+  </div>
 
-  <label>Have you ever owned another business? </label>
-  <input type="radio" name="nobusiness" value="nobusiness"> No
-  <input type="radio"  name="yesbusiness" value="yesbusiness"> Yes
+  <div class="input">
+    <label>What's the address of your business?</label>
+    <input type="text" placeholder="Street">
+    <div class="row">
+      <input class="city" placeholder="City">
+      <input class="state" placeholder="State">
+    </div>
+  </div>
 
-  <label>Provide in detail the principal products or services you provide. Be concise</label>
-  <textarea></textarea>
-  <input type="submit" value="Submit">
+  <div class="input">
+    <label>In one sentence, what does your business do?</label>
+    <textarea></textarea>
+  </div>
+
+  <div class="action">
+    <a class="button" href="#">Something</a>
+  </div>
 </form>
