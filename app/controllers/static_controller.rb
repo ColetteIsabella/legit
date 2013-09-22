@@ -7,4 +7,14 @@ class StaticController < ApplicationController
   def package
 
   end
+
+  def personal
+  end
+
+  def anotherbank
+  end
+
+  def businessform
+  end
+
 end
