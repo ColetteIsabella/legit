@@ -33,6 +33,7 @@ group :doc do
 end
 
 gem "autoprefixer-rails"
+gem 'normalize-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
