@@ -11,10 +11,10 @@ class StaticController < ApplicationController
   def personal
   end
 
-  def anotherbank
+  def bank
   end
 
-  def businessform
+  def business
   end
 
 end
