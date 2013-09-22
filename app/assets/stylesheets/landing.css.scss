@@ -2,9 +2,10 @@
   padding: 50px 0;
 }
 
-#first {
-  background-color: rgba(255, 0, 0, 0.25);
+section#first {
+  background-color: #b69fcc;
   padding: 100px 0;
+  color: #393939;
 
   h1, p {
     width: 960px * 2.0 / 3.0;
@@ -19,7 +20,7 @@
 }
 
 #second {
-  background-color: rgba(0, 255, 0, 0.25);
+  background-color: white;
 }
 
 .features {
@@ -36,7 +37,7 @@
 }
 
 #third {
-  background-color: rgba(0, 0, 255, 0.25);
+  background-color: #98c6b8;
 }
 
 .quad {
@@ -70,6 +71,4 @@
     margin-top: 10px;
     margin-bottom: 30px;
   }
-
-  background-color: rgba(255, 255, 0, 0.25);
 }
