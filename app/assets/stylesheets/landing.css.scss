@@ -18,9 +18,11 @@ section#first {
   h1 {
     font-size: 54px;
     font-weight: 700;
+    margin-bottom: 0;
   }
 
   p {
+    margin-top: 10px;
     font-size: 18px;
   }
 }
@@ -43,18 +45,44 @@ section#first {
 }
 
 #third {
-  background-color: #98c6b8;
+  background-color: lighten(#98c6b8, 10%);
+
+  img {
+    width: 80px;
+    position: absolute;
+    border-radius: 40px;
+  }
+
+  .quote, .name {
+    padding-left: 100px;
+    margin: 0;
+  }
+
+  .quote {
+    font-style: italic;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    margin-top: 0;
+    font-weight: 600;
+  }
 }
 
 .quad {
+  box-sizing: border-box;
   width: 960px;
   margin: 0 auto;
   display: box;
   flex-wrap: wrap;
+  padding: 0 20px;
 
   .point {
+    position: relative;
+    margin: 20px 0;
+
     box-sizing: border-box;
-    padding-left: 100px;
     width: 50%;
     padding-right: 20px;
   }
@@ -66,15 +94,39 @@ section#first {
 
 #fourth {
 
+  background-color: #393939;
+  color: rgba(255, 255, 255, 0.75);
+
+  h2, p {
+    color: #b9d8cf;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  h2 {
+    color: c
+  }
+
+  p {
+    margin: 30px 0;
+  }
+
   .content {
     width: 960px * 2.0 / 3.0;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .call-to-action {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
+  .button {
+    background-color: lighten(#b59fcc, 5%);
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #393939;
+    font-weight: 400;
   }
+}
+
+.call-to-action {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
