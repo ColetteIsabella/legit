@@ -1,15 +1,23 @@
 <form>
-  <input type="text" placeholder="Name">
-  <input type="text" placeholder="Email">
-  <input type="text" placeholder="Phone">
-  <input type="text" placeholder="Address">
+  <div class="input">
+    <input type="text" placeholder="Name">
+  </div>
+  <div class="input">
+    <input type="text" placeholder="Email">
+  </div>
+  <div class="input">
+    <input type="text" placeholder="Phone">
+  </div>
+  <div class="input">
+    <input type="text" placeholder="Address">
+  </div>
 
-  <label>Are you married?</label>
-  <input type="radio" name="notmarried" value="notmarried"> No <br/>
-  <input type="radio"  name="yesmarried" value="yesmarried"> Yes
-  <input type"text" placeholder="spouse">
+  <div class="input">
+    <label> What is your Social Security Number? </label>
+    <input type="text">
+  </div>
 
-  <label> What is your Social Security Number? </label>
-  <input type="text" placeholder="SSN">
-  <input type="submit" value="Submit">
+   <div class="action">
+    <%= link_to 'Something' , business_path, { :class=>"button" } %>
+  </div>
 </form>
