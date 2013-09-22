@@ -34,3 +34,25 @@
     padding: 0 20px;
   }
 }
+
+#third {
+  background-color: rgba(0, 0, 255, 0.25);
+}
+
+.quad {
+  width: 960px;
+  margin: 0 auto;
+  display: box;
+  flex-wrap: wrap;
+
+  .point {
+    box-sizing: border-box;
+    padding-left: 100px;
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  h3, p {
+    text-align: left;
+  }
+}
