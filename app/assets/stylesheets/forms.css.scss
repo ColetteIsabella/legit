@@ -20,6 +20,7 @@ form {
         outline: none;
         box-shadow: 0 0 10px 0 transparentize(#563081, 0.75);
         border-color: transparentize(#563081, 0.2);
+        transition: border-color 2s ease 2s;
       }
     }
 
@@ -80,4 +81,9 @@ form {
     color: white;
     font-size: 20px;
   }
+}
+
+.business{
+  display:none;
+  heighta:480px;
 }
