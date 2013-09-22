@@ -28,19 +28,26 @@
 
   h1 {
     font-weight: 600;
-    
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   nav {
 
     box-flex: 1;
     text-align: right;
-
-    a {
-      color: white;
-      text-decoration: none;
-      margin-left: 10px;
-      display: inline-block;
-    }
   }
 }
