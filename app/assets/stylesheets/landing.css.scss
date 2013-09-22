@@ -31,6 +31,24 @@ section#first {
   background-color: white;
 }
 
+.secure, .simple, .affordabe {
+  height: 200px;
+  padding: 20px;
+}
+
+
+.secure img {
+  width: 80px;
+}
+
+.simple img {
+  width: 80px;
+}
+
+.affordable img {
+  width: 80px;
+}
+
 .features {
 
   display: box;
