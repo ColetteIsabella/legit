@@ -1,23 +1,59 @@
 <form>
+  <div class="personal">
   <div class="input">
+    <label> What's your name? </label>
     <input type="text" placeholder="Name">
   </div>
   <div class="input">
+    <label> What's your email? </label>
     <input type="text" placeholder="Email">
   </div>
   <div class="input">
+    <label> What's your phone number? </label>
     <input type="text" placeholder="Phone">
   </div>
   <div class="input">
-    <input type="text" placeholder="Address">
+    <label>What's your address?</label>
+    <input type="text" placeholder="Street">
+    <div class="row">
+      <input class="city" placeholder="City">
+      <input class="state" placeholder="State">
+    </div>
   </div>
 
   <div class="input">
     <label> What is your Social Security Number? </label>
     <input type="text">
   </div>
+</div>
+
+  <div class="business">
+  <div class="input">
+    <label>What's your business's name?</label>
+    <input type="text" placeholder="">
+  </div>
+
+  <div class="input">
+    <label>What's the address of your business?</label>
+    <input type="text" placeholder="Street">
+    <div class="row">
+      <input class="city" placeholder="City">
+      <input class="state" placeholder="State">
+    </div>
+  </div>
+
+  <div class="input">
+    <label>In one sentence, what does your business do?</label>
+    <textarea></textarea>
+  </div>
+
+</div>
 
    <div class="action">
-    <%= link_to 'Something' , business_path, { :class=>"button" } %>
+    <a class="button slide" href="#">Something</a>
   </div>
+
 </form>
+
+
+
