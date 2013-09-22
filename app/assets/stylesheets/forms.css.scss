@@ -3,7 +3,11 @@ form {
   box-sizing: border-box;
   width: 960px * (1.0 / 2);
   margin: 0 auto;
-  padding-top: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+
+  background-color: lighten(#b59fcc, 20%);
+  padding: 20px;
 
   .input, .action {
     margin-top: 20px;
@@ -15,6 +19,7 @@ form {
       box-sizing: border-box;
       font-size: 18px;
       color: #393939;
+      border-color: #b59fcc;
 
       &:focus {
         outline: none;
@@ -25,19 +30,19 @@ form {
     }
 
     input, textarea {
-      border: 1px solid darken(#e6e6e6, 10%);
-      border-radius: 4px;
-      padding: 8px;
+      border: 1px solid transparentize(#b59fcc, 0.25);
+      border-radius: 20px;
+      padding: 8px 16px;
       resize: none;
 
       &::-webkit-input-placeholder {
-        color: darken(#e6e6e6, 10%);
+        color: darken(#e8e2ef, 10%);
       }
     }
 
     label {
-      margin-bottom: 5px;
-      padding-left: 5px;
+      margin-bottom: 8px;
+      padding-left: 16px;
     }
 
     input {
@@ -47,17 +52,17 @@ form {
 
     .city, .state {
       display: inline-block;
-      width: 49%;
+      width: 48%;
       box-sizing: border-box;
 
     }
 
     .city {
-      margin-right: 1%;
+      margin-right: 2%;
     }
 
     .state {
-      margin-left: 1%;
+      margin-left: 2%;
     }
 
     .row {
@@ -80,10 +85,6 @@ form {
     margin: 0 auto;
     color: white;
     font-size: 20px;
+    background-color: transparentize(#573082, 0.2);
   }
-}
-
-.business{
-  display:none;
-  heighta:480px;
 }
