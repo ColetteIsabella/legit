@@ -2,19 +2,22 @@
 <html>
 <head>
   <title>Legit</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<header>
-  <h1>Legit</h1>
-  <nav>
-    <a href="Sign in">Sign in</a>
-    <a class="sign-up" href="Sign in">Sign up</a>
-  </nav>
-</header>
+<div id="header-wrapper">
+  <header id="header">
+    <h1>Legit</h1>
+    <nav>
+      <a href="Sign in">Sign in</a>
+      <a class="sign-up" href="Sign in">Sign up</a>
+    </nav>
+  </header>
+</div>
 
 <div id="container">
   <%= yield %>

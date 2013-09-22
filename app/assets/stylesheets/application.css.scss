@@ -11,3 +11,12 @@
  *= require_self
  *= require_tree .
  */
+
+html, body {
+
+  // remove the body margins
+  margin: 0;
+
+  // type
+  font-family: 'Open Sans', sans-serif;
+}
