@@ -28,7 +28,11 @@
 
   h1 {
     font-weight: 600;
-    font-size: 38px;
+    font-size: 34px;
+
+    a {
+      color: saturate(#98c6b8, 10%);
+    }
 
     a:hover {
       text-decoration: none;
@@ -38,7 +42,6 @@
   a {
     color: white;
     text-decoration: none;
-    margin-left: 10px;
     display: inline-block;
 
     &:hover {
@@ -50,5 +53,13 @@
 
     box-flex: 1;
     text-align: right;
+
+    span {
+      font-size: 34px;
+    }
+
+    a {
+      margin-left: 15px;
+    }
   }
 }
