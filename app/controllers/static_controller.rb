@@ -9,9 +9,6 @@ class StaticController < ApplicationController
   def personal
   end
 
-  def bank
-  end
-
   def business
   end
 
